@@ -80,14 +80,9 @@ To go live, collect these credentials:
 ## 🚀 Dev Startup
 
 ```bash
-# 1. Create .env file with your real credentials
-# Copy the template below and save as .env in the project root:
-#
-# GHL_API_BASE_URL=https://rest.gohighlevel.com/v1
-# GHL_API_KEY=sk_your_primary_api_key_here
-# GHL_SUB_ACCOUNT_ID=abc123456789
-# ALLOWED_ORIGINS=*
-# ANTHROPIC_API_KEY=your_anthropic_api_key_here
+# 1. Create .env file from template
+cp env.template .env
+# Then edit .env with your real GHL credentials
 
 # 2. Install deps
 pip install -r requirements.txt
